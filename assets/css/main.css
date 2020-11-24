@@ -2587,6 +2587,10 @@ input, select, textarea {
 		}
 
 /* Image */
+	.image-circle {
+		border-radius: 50%;
+	}
+
 
 	.image {
 		border: 0;
