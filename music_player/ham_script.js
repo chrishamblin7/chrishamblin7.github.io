@@ -36,7 +36,7 @@ function createTrackItem(index,name,duration){
     },
     {
       name:"Tell me a Bedtime Story",
-      file:"../music/ham/tell_me_a_bedtime_story_ham.m4a",
+      file:"../music/ham/Tell_me_a_bedtime_story_ham.m4a",
       duration:"07:39"
     },
     {
