@@ -30,14 +30,14 @@ function createTrackItem(index,name,duration){
 
   var listAudio = [
     {
+        name:"Tell me a Bedtime Story",
+        file:"../music/ham/Tell_me_a_bedtime_story_ham.m4a",
+        duration:"07:39"
+      },
+    {
       name:"DMT Song",
       file:"../music/ham/dmt_song_ham.m4a",
       duration:"04:14"
-    },
-    {
-      name:"Tell me a Bedtime Story",
-      file:"../music/ham/Tell_me_a_bedtime_story_ham.m4a",
-      duration:"07:39"
     },
     {
       name:"Fleer Ultra",
