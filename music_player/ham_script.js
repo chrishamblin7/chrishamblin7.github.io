@@ -40,7 +40,7 @@ function createTrackItem(index,name,duration){
       duration:"07:39"
     },
     {
-      name:"Frenzy",
+      name:"Fleer Ultra",
       file:"../music/ham/bass_frenzy_ham.m4a",
       duration:"03:53"
     },
