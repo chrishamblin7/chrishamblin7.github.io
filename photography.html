@@ -3,14 +3,90 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Photography — Redirecting…</title>
-    <meta http-equiv="refresh" content="0; url=./#photos" />
-    <link rel="canonical" href="./#photos" />
+    <title>Photography — Chris Hamblin</title>
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/v2.css" />
+    <script src="assets/js/v2.js" defer></script>
   </head>
   <body>
-    <p>Redirecting… <a href="./#photos">Continue</a></p>
-    <script>
-      location.replace("./#photos");
-    </script>
+    <a class="skip-link" href="#content">Skip to content</a>
+<header class="site-header" id="top">
+      <div class="container">
+        <div class="hero">
+          <img
+            class="avatar"
+            src="images/profile_chris_piano.jpg"
+            alt="Chris Hamblin"
+            width="256"
+            height="256"
+            loading="eager"
+            decoding="async"
+          />
+          <div class="hero-text">
+            <h1>Chris Hamblin</h1>
+            <p class="email"><em>chrishamblin7 at gmail dot com</em></p>
+            <p class="lede">
+              I'm currently a neuroscientist and AI researcher, but I do other stuff too.<br />
+              Check out my science, music, photography, writing, and more below.
+            </p>
+            <div class="icon-links" aria-label="Social links">
+              <a
+                class="icon-link"
+                href="https://github.com/chrishamblin7/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="GitHub"
+                title="GitHub"
+              >
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              <a
+                class="icon-link"
+                href="https://www.instagram.com/chrishamblin7/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Instagram"
+                title="Instagram"
+              >
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a
+                class="icon-link"
+                href="https://www.youtube.com/channel/UCkddKdrECWkY4kDdZelo9SA"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="YouTube"
+                title="YouTube"
+              >
+                <i class="fab fa-youtube" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="container" id="content">
+      <p><a class="back-link" href="./">← Home</a></p>
+<details class="section" id="photos" open>
+        <summary>
+          <span class="summary-chevron" aria-hidden="true">&gt;</span>
+          <span class="summary-title">Photography</span>
+        </summary>
+        <div class="section-body">
+          <div class="photo-grid" data-photo-grid></div>
+          <div class="lightbox" data-lightbox aria-hidden="true">
+            <button class="lightbox-btn lightbox-close" type="button" data-lightbox-close aria-label="Close">×</button>
+            <button class="lightbox-btn lightbox-prev" type="button" data-lightbox-prev aria-label="Previous">‹</button>
+            <img class="lightbox-img" data-lightbox-img alt="" />
+            <button class="lightbox-btn lightbox-next" type="button" data-lightbox-next aria-label="Next">›</button>
+          </div>
+        </div>
+      </details>
+<footer class="site-footer">
+        <p class="small">
+          © Chris Hamblin · <a href="#top">Back to top</a>
+        </p>
+      </footer>
+    </main>
   </body>
 </html>
