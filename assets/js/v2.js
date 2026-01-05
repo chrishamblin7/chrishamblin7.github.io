@@ -236,8 +236,8 @@ const PLAYLISTS = {
   ],
   trusttheprocess: [
     { name: "Dad Did", file: "/music/trusttheprocess/Dad_Did.mp3" },
-    { name: "Shade", file: "/music/badandblue/Shade.mp3" },
-    { name: "Trust the Process", file: "/music/badandblue/Trust_the_Process.mp3" },
+    { name: "Shade", file: "/music/trusttheprocess/Shade.mp3" },
+    { name: "Trust the Process", file: "/music/trusttheprocess/Trust_the_Process.mp3" },
   ],
   bluebird: [{ name: "Blue Bird", file: "/music/singles/blue_bird.m4a" }],
   jam1: [{ name: "Jam - 1", file: "/music/singles/knot_A_flat.mp3" }],

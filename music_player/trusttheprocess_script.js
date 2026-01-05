@@ -36,12 +36,12 @@ function createTrackItem(index,name,duration){
     },
     {
       name:"Shade",
-      file:"../music/badandblue/Shade.mp3",
+      file:"../music/trusttheprocess/Shade.mp3",
       duration:"05:15"
     },
     {
       name:"Trust the Process",
-      file:"../music/badandblue/Trust_the_Process.mp3",
+      file:"../music/trusttheprocess/Trust_the_Process.mp3",
       duration:"04:33"
     }
   ]
