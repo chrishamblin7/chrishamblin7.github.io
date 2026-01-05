@@ -237,6 +237,14 @@ main.container {
   display: block;
 }
 
+.media-link {
+  display: block;
+}
+
+.media-link:hover {
+  text-decoration: none;
+}
+
 .card p {
   margin: 0.45rem 0;
 }
